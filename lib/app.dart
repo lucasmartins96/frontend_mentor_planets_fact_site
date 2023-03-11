@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend_mentor_planets_fact_site/colors.dart';
 import 'package:frontend_mentor_planets_fact_site/page_home.dart';
 
 class PlanetsFactSite extends StatelessWidget {
@@ -10,6 +11,7 @@ class PlanetsFactSite extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: AppColors.oxfordBlue,
       ),
       home: const HomePage(title: 'Flutter Demo Home Page'),
     );
